@@ -1,0 +1,36 @@
+/* For the whole page */
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+body {
+	font-family: sans-serif;
+	font-size: 14px;
+	color: #444;
+}
+
+/* Navigation */
+nav {
+	list-style: none;
+	background-color: lightblue;
+	text-transform: uppercase;
+
+	position: fixed;
+	width: 100%;
+}
+.nav-name {
+	float: left;
+	padding: 10px 10px;
+}
+.nav-name:first-child {
+	padding: 0 40px;
+}
+.jumpto {
+	float: right;
+	padding: 10px 10px;
+}
+/* About me */
+header {
+	padding-top: 50px;
+}
