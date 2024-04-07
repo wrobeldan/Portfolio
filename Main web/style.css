@@ -18,19 +18,48 @@ nav {
 
 	position: fixed;
 	width: 100%;
+	display: inline;
+	vertical-align: middle;
 }
 .nav-name {
 	float: left;
 	padding: 10px 10px;
 }
-.nav-name:first-child {
-	padding: 0 40px;
-}
 .jumpto {
 	float: right;
 	padding: 10px 10px;
+	text-decoration: none;
+}
+.jumpto:hover {
+	background-color: blue;
+	text-decoration: solid;
 }
 /* About me */
 header {
 	padding-top: 50px;
+}
+/* .photo-of-me {
+	box-align: center???????????????????????????????;
+} */
+
+/* footer */
+footer {
+	background-color: lightblue;
+	width: auto;
+	padding: 10px 0;
+	text-align: center;
+	margin-top: 40px;
+}
+footer p {
+	text-transform: uppercase;
+	font-weight: bolder;
+	/* border-right: solid 20px lightblue; */
+}
+.footer-links {
+	padding: 0 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+.footer-links:last-child {
+	padding-right: 25px;
 }
