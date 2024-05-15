@@ -64,3 +64,11 @@ footer p {
 .footer-links:last-child {
 	padding-right: 250px;
 }
+
+/* ------------------------ */
+
+.social-media-links:hover {
+	background-image: url(/portfolio/Main\ web/.png);
+
+	/* url(/portfolio/Main web/images/email_hover.png;); */
+}
